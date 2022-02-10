@@ -38,7 +38,8 @@ namespace TestAdvanced_MathLibrary {
         [InlineData(3, 15, 5)]
         [InlineData(3, 21, 7)]
         [InlineData(4, 20, 5)]
-            public void TestDivide(int expected, int a, int b) {
+        
+        public void TestDivide(int expected, int a, int b) {
             Assert.Equal(expected, Math.Divide(a, b));
 
         }
